@@ -1,0 +1,312 @@
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+    font-family: "Roboto", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+textarea {
+	resize: vertical;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+input[type='file'] {
+	max-width: 100%;
+}
+
+
+.onepage{
+    width: 1440px;
+    height: 852px;
+    background-image: url(./img/hero\(1\).png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.naw{
+    display: flex;
+    padding-top: 52px;
+    margin-left: 135px;
+    align-items: center;
+}
+.nawpanel {
+    display: flex;
+    color: white;
+    gap: 52px;
+    margin-left: 240px;
+}
+.nawpanel > a {
+    color: white;
+}
+.nawpanel > a:hover{
+    color: green;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 140px;
+    height: 55px;
+    border-radius: 116px;
+    border: solid 1px #EDFF8166;
+    justify-content: center;
+    margin-left: 197px;
+}
+.btn > a{
+    color: white;
+}
+.zx{
+    font-size: 36px;
+    opacity: 80%;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+}
+.zc{
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.xz{
+    font-size: 22px;
+    color: white;
+    opacity: 60%;
+    text-align: center;
+}
+.zov{
+    display: flex;
+    flex-direction: column;
+    width: 243px;
+    height: 78px;
+    border-radius: 192px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(328.68deg, #98AA28 13.03%, #D6FF7E 120.61%);
+    border-image-source: linear-gradient(283.81deg, rgba(255, 255, 255, 0.69) 11.22%, rgba(255, 255, 255, 0.25) 89.57%);
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 599px;
+    margin-top: 70px;
+    color: rgba(255, 255, 255, 1);
+
+}
+.twopage{
+    display: flex;
+    width: 1440px;
+    height: 140px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 184px;
+    padding-right: 145px;
+}
+.threepage{
+    width: 1440px;
+    height: 1378px;
+}
+h1{
+    font-size: 42px;
+    font-weight: bold;
+}
+h6{
+    font-size: 22px;
+    color: rgba(120, 132, 125, 1);
+}
+.greenblock{
+    margin-left: 733px;
+    margin-top: -301px;
+}
+h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.blueblock{
+    margin-left: 733px;
+    margin-top: 80px;
+}
+.purpleblock{
+    margin-left: 1051px;
+    margin-top: -530px;
+}
+.orangeblock{
+    margin-left: 1051px;
+    margin-top: 80px;
+}
+.zzz{
+    display: flex;
+    flex-direction: column;
+    width: 243px;
+    height: 78px;
+    border-radius: 192px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(328.68deg, #98AA28 13.03%, #D6FF7E 120.61%);
+    border-image-source: linear-gradient(283.81deg, rgba(255, 255, 255, 0.69) 11.22%, rgba(255, 255, 255, 0.25) 89.57%);
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 817px;
+    margin-top: 50px;
+}
+.fourpage{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 664px;
+    background-color: #F6FBF9;
+}
+h3{
+    font-size: 22px;
+    color: rgba(120, 132, 125, 1);
+
+}
+h4{
+    font-size: 22px;
+    color: rgba(37, 61, 50, 1);
+}
+.fivepage{
+    width: 1440px;
+    height: 955px;
+}
+.grouponedown > button{
+    width: 206px;
+    height: 68px;
+    border-radius: 192px;
+    border: solid 1px rgba(163, 185, 56, 1); 
+    color: rgba(163, 185, 56, 1);
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 135px;
+}
+.grouptwodown{
+    margin-left: 725px;
+    margin-top: -577px;
+}
+.groupthreedown{
+    margin-left: 1035px;
+    margin-top: -547px;
+}
+.sixpage{
+    width: 1440px;
+    height: 1114px;
+    background-image: url(./img/kubiki.jpg);
+    background-repeat: no-repeat;
+    background-position: 135px 60px;
+}
+.popa > input{
+    width: 372px;
+    height: 78px;
+    border-radius: 100px;
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    color: #14183E;
+    line-height: 100%;
+    letter-spacing: 2%;
+    background: linear-gradient(332.09deg, #FFFFFF 3.37%, #E2E2E2 132.9%);
+    margin-top: 61.97px;
+    margin-left: 261px;
+}
+.popa > input::placeholder{
+    color: rgba(20, 24, 62, 1);
+}
+.zzzz{
+    display: flex;
+    flex-direction: column;
+    width: 243px;
+    height: 78px;
+    border-radius: 192px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(328.68deg, #98AA28 13.03%, #D6FF7E 120.61%);
+    border-image-source: linear-gradient(283.81deg, rgba(255, 255, 255, 0.69) 11.22%, rgba(255, 255, 255, 0.25) 89.57%);
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 62.97px;
+    margin-left: 30px;
+}
+s
